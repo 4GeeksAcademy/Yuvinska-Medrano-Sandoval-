@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: black;
+}
+
+.instagram-post {
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 5px black;
+}
+
+.header, .post-content {
+    padding: 10px 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-info {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.username {
+    font-weight: bold;
+    margin: 0;
+}
+
+.location {
+    margin: 0;
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+.more-options {
+    cursor: pointer;
+}
+
+.post-image {
+    width: 100%;
+    height: 300px;
+    background: url('https://i.pinimg.com/originals/eb/54/32/eb543286fece2f25aaf8d6b9f5598d85.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.post-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
